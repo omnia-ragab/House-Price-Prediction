@@ -1,6 +1,6 @@
 # House-Price-Prediction
 A Machine Learning project to predict housing prices using Regression techniques. Includes data cleaning, exploratory data analysis (EDA), and model evaluation using Scikit-learn"
-ر# 🏡 California Housing Price Predictor 
+California Housing Price Predictor 
 
 
 ##  Project Overview
@@ -16,20 +16,15 @@ This project predicts the **Median House Value** in California using various fea
 *   **Analysis:** Pandas, NumPy, Matplotlib, Seaborn.
 *   **Machine Learning:** Scikit-Learn (Random Forest Regressor).
 
-## 📊 Performance
+## Performance
 The final model achieved the following results on the test set:
-*   **RMSE:** $[$47,132.03]$
-*   **R² Score:** $[0.7585]$
+*   **RMSE:** 47,132.03$
+*   **R² Score:** 0.7585
 *  
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 ├── data/               # Dataset files
 ├── models/             # Saved .pkl files (Model & Scaler)
 ├── notebooks/          # Google Colab notebooks
 ├── eda_report.html     # Interactive EDA report
-
-
-├── app.py              # Streamlit application code
-├── eda_report.html     # Interactive EDA report
-└── submission.csv      # Final predictions
